@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* #0F1035 
-
 /* Common Section */
 * {
     margin: 0;
@@ -19,7 +17,7 @@
     padding-top: 41.25px;
 }
 
-.banner {
+#head .banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner-Image.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,17 +34,56 @@
     font-style: normal;
 }
 
-.banner .banner-msg {
+#head .banner .banner-msg {
     font-size: 26.4px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 13.2px;
 }
 
-.banner .banner-title {
+#head .banner .banner-title {
     font-size: 59.4px;
     font-weight: 900;
     line-height: 78.375px;
     width: 100%;
     max-width: 521.4px;
+}
+
+/* Highlighted Section */
+
+#highlighted .highlighted-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+#highlighted .highlighted-content .highlighted-title {
+    color: #F00;
+    font-size: 72.6px;
+    font-weight: 700;
+    margin-bottom: 39.6px;
+}
+
+#highlighted .highlighted-content .highlighted-msg {
+    color: #F00;
+    font-size: 19.8px;
+    font-weight: 500;
+    margin-bottom: 13.2px;
+}
+
+#highlighted .highlighted-content .highlighted-info {
+    color: #11009E;
+    font-size: 39.6px;
+    font-weight: 700;
+    margin-bottom: 39.6px;
+}
+
+#highlighted .highlighted-content img {
+    width: 100%;
+    max-width: 662.3925px;
 }
