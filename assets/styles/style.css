@@ -198,3 +198,84 @@
 }
 
 /* Coming-Soon Section */
+#coming-soon .coming-soon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+#coming-soon .coming-soon-container .coming-soon-column .coming-soon-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 19.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#coming-soon .coming-soon-container .coming-soon-column .coming-soon-title {
+    color: #11009E;
+    font-family: Merriweather;
+    font-size: 39.6px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 13.2px 0 18.15px;
+}
+
+#coming-soon .coming-soon-container .coming-soon-column .coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    width: 100%;
+    max-width: 324.225px;
+}
+
+#coming-soon .coming-soon-container .coming-soon-border-radius {
+    border-radius: 381.975px;
+    border: 12.375px solid #F00;
+    padding: 40.491px;
+}
+#coming-soon .coming-soon-container .coming-soon-border-radius:hover {
+    border: 12.375px solid #11009E;
+    transition: all 1s;
+}
+
+#coming-soon .coming-soon-container .coming-soon-border-radius img {
+    width: 100%;
+    min-width: 300.966px;
+    max-width: 300.9963px;
+}
+
+#coming-soon .coming-soon-container .coming-soon-column .coming-soon-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 39.6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#coming-soon .coming-soon-container .coming-soon-column .coming-soon-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    width: 100%;
+    max-width: 227.7px;
+    margin: 13.2px 0 35.475px;
+}
+
+#coming-soon .coming-soon-container .coming-soon-column img {
+    width: 100%;
+    max-width: 115.5px;
+}
+
+/* Discount Section */
