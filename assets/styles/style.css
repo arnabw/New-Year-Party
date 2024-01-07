@@ -87,3 +87,64 @@
     width: 100%;
     max-width: 662.3925px;
 }
+
+/* Party-Join Section */
+
+#party-join .party-join-content {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 600px;
+    border-radius: 13.2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#party-join .party-join-content .party-join-content-column .party-join-content-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 52.8px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72.6px;
+    letter-spacing: 5.808px;
+    width: 100%;
+    max-width: 529.65px;
+}
+
+#party-join .party-join-content .party-join-content-column .party-join-content-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14.85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.75px;
+    width: 100%;
+    max-width: 575.025px;
+    margin: 19.8px 0 39.6px;
+}
+
+#party-join .party-join-content .party-join-content-column .party-join-content-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 84.975;
+}
+
+#party-join .party-join-content .party-join-content-column .party-join-content-link:hover {
+    color: #11009E;
+    transition: all 1s;
+}
+
+#party-join .party-join-content .party-join-content-column .image-container img {
+    width: 100%;
+    max-width: 263.85975px;
+}
