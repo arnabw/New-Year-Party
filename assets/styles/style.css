@@ -241,6 +241,7 @@
     border: 12.375px solid #F00;
     padding: 40.491px;
 }
+
 #coming-soon .coming-soon-container .coming-soon-border-radius:hover {
     border: 12.375px solid #11009E;
     transition: all 1s;
@@ -279,3 +280,77 @@
 }
 
 /* Discount Section */
+
+#discount .discount-container .discount-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount .discount-container .discount-content .discount-content-info {
+    color: #11009E;
+    font-family: Inter;
+    font-size: 19.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#discount .discount-container .discount-content .discount-content-title {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59.4px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 13.2px 0 23.1px;
+}
+
+#discount .discount-container .discount-content .discount-content-title span {
+    color: #11009E;
+}
+
+#discount .discount-container .discount-content .discount-content-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    width: 100%;
+    max-width: 881.1px;
+    margin-bottom: 52.8px;
+}
+
+#discount .discount-container .discount-images .position-images{
+    position: relative;
+    height: 357.225px;
+}
+
+#discount .discount-container .discount-images .position-images .box-img {
+    width: 100%;
+    max-width: 657.081975px;
+}
+
+#discount .discount-container .discount-images .position-images .girl-img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    max-width: 353.925px;
+}
+
+#discount .discount-container .discount-images .position-images .flat-discount {
+    position: absolute;
+    top: 100px;
+    right: 270px;
+    width: 100%;
+    max-width: 170.643825px;
+}
+
+#discount .discount-container .discount-images .red-img {
+    width: 100%;
+    max-width: 1320px;
+}
