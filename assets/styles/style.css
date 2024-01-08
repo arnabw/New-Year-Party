@@ -325,7 +325,7 @@
     margin-bottom: 52.8px;
 }
 
-#discount .discount-container .discount-images .position-images{
+#discount .discount-container .discount-images .position-images {
     position: relative;
     height: 357.225px;
 }
@@ -354,3 +354,85 @@
     width: 100%;
     max-width: 1320px;
 }
+
+/* Portfolio Section */
+#portfolio .portfolio-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio .portfolio-content .portfolio-info {
+    color: #F00;
+    font-family: Inter;
+    font-size: 19.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13.2px;
+}
+
+#portfolio .portfolio-content .portfolio-title {
+    color: #11009E;
+    font-family: Merriweather;
+    font-size: 39.6px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 18.15px;
+}
+
+#portfolio .portfolio-content .portfolio-description {
+    width: 100%;
+    max-width: 739.2px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+    margin-bottom: 39.6px;
+}
+
+#portfolio .portfolio-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19.8px;
+    justify-content: space-between;
+}
+
+#portfolio .portfolio-products .portfolio-display-products{
+    position: relative;
+}
+
+#portfolio .portfolio-products .portfolio-display-products img {
+    width: 100%;
+    max-width: 349.8px;
+}
+
+#portfolio .portfolio-products .portfolio-display-products .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#portfolio .portfolio-products .portfolio-display-products:hover .overlay{
+    opacity: 1;
+}
+
+#portfolio .portfolio-products .portfolio-display-products .overlay .price{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* Subscribe Section */
